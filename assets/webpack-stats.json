@@ -1,0 +1,165 @@
+{
+  "status": "done",
+  "assets": {
+    "favicon.ico": {
+      "name": "favicon.ico",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\favicon.ico",
+      "publicPath": "http://localhost:8080/favicon.ico",
+      "sourceFilename": "public/favicon.ico"
+    },
+    "index.html": {
+      "name": "index.html",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\index.html",
+      "publicPath": "http://localhost:8080/index.html"
+    },
+    "main-3bb86344fa92b115.js": {
+      "name": "main-3bb86344fa92b115.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main-3bb86344fa92b115.js",
+      "publicPath": "http://localhost:8080/main-3bb86344fa92b115.js"
+    },
+    "main-521db5662a42fae8.js": {
+      "name": "main-521db5662a42fae8.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main-521db5662a42fae8.js",
+      "publicPath": "http://localhost:8080/main-521db5662a42fae8.js"
+    },
+    "main-558509019721504e.js": {
+      "name": "main-558509019721504e.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main-558509019721504e.js",
+      "publicPath": "http://localhost:8080/main-558509019721504e.js"
+    },
+    "main-82abccb41681aaa0.js": {
+      "name": "main-82abccb41681aaa0.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main-82abccb41681aaa0.js",
+      "publicPath": "http://localhost:8080/main-82abccb41681aaa0.js"
+    },
+    "main-9b97933c21af3136.js": {
+      "name": "main-9b97933c21af3136.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main-9b97933c21af3136.js",
+      "publicPath": "http://localhost:8080/main-9b97933c21af3136.js"
+    },
+    "main-cceb1a4021a17869.js": {
+      "name": "main-cceb1a4021a17869.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main-cceb1a4021a17869.js",
+      "publicPath": "http://localhost:8080/main-cceb1a4021a17869.js"
+    },
+    "main-d0bfa11791e3be6a.js": {
+      "name": "main-d0bfa11791e3be6a.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main-d0bfa11791e3be6a.js",
+      "publicPath": "http://localhost:8080/main-d0bfa11791e3be6a.js"
+    },
+    "main-d4d7727cb37e3c9d.js": {
+      "name": "main-d4d7727cb37e3c9d.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main-d4d7727cb37e3c9d.js",
+      "publicPath": "http://localhost:8080/main-d4d7727cb37e3c9d.js"
+    },
+    "main-da6ac32a4a38b99d.js": {
+      "name": "main-da6ac32a4a38b99d.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main-da6ac32a4a38b99d.js",
+      "publicPath": "http://localhost:8080/main-da6ac32a4a38b99d.js"
+    },
+    "main-efbcebd3231ae4f3.js": {
+      "name": "main-efbcebd3231ae4f3.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main-efbcebd3231ae4f3.js",
+      "publicPath": "http://localhost:8080/main-efbcebd3231ae4f3.js"
+    },
+    "main.3bb86344fa92b115.hot-update.js": {
+      "name": "main.3bb86344fa92b115.hot-update.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.3bb86344fa92b115.hot-update.js",
+      "publicPath": "http://localhost:8080/main.3bb86344fa92b115.hot-update.js"
+    },
+    "main.3bb86344fa92b115.hot-update.json": {
+      "name": "main.3bb86344fa92b115.hot-update.json",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.3bb86344fa92b115.hot-update.json",
+      "publicPath": "http://localhost:8080/main.3bb86344fa92b115.hot-update.json"
+    },
+    "main.521db5662a42fae8.hot-update.js": {
+      "name": "main.521db5662a42fae8.hot-update.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.521db5662a42fae8.hot-update.js",
+      "publicPath": "http://localhost:8080/main.521db5662a42fae8.hot-update.js"
+    },
+    "main.521db5662a42fae8.hot-update.json": {
+      "name": "main.521db5662a42fae8.hot-update.json",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.521db5662a42fae8.hot-update.json",
+      "publicPath": "http://localhost:8080/main.521db5662a42fae8.hot-update.json"
+    },
+    "main.558509019721504e.hot-update.js": {
+      "name": "main.558509019721504e.hot-update.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.558509019721504e.hot-update.js",
+      "publicPath": "http://localhost:8080/main.558509019721504e.hot-update.js"
+    },
+    "main.558509019721504e.hot-update.json": {
+      "name": "main.558509019721504e.hot-update.json",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.558509019721504e.hot-update.json",
+      "publicPath": "http://localhost:8080/main.558509019721504e.hot-update.json"
+    },
+    "main.82abccb41681aaa0.hot-update.js": {
+      "name": "main.82abccb41681aaa0.hot-update.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.82abccb41681aaa0.hot-update.js",
+      "publicPath": "http://localhost:8080/main.82abccb41681aaa0.hot-update.js"
+    },
+    "main.82abccb41681aaa0.hot-update.json": {
+      "name": "main.82abccb41681aaa0.hot-update.json",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.82abccb41681aaa0.hot-update.json",
+      "publicPath": "http://localhost:8080/main.82abccb41681aaa0.hot-update.json"
+    },
+    "main.9e430fb8bfcfe316.hot-update.js": {
+      "name": "main.9e430fb8bfcfe316.hot-update.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.9e430fb8bfcfe316.hot-update.js",
+      "publicPath": "http://localhost:8080/main.9e430fb8bfcfe316.hot-update.js"
+    },
+    "main.9e430fb8bfcfe316.hot-update.json": {
+      "name": "main.9e430fb8bfcfe316.hot-update.json",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.9e430fb8bfcfe316.hot-update.json",
+      "publicPath": "http://localhost:8080/main.9e430fb8bfcfe316.hot-update.json"
+    },
+    "main.bcdea44f2fa805d9.hot-update.js": {
+      "name": "main.bcdea44f2fa805d9.hot-update.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.bcdea44f2fa805d9.hot-update.js",
+      "publicPath": "http://localhost:8080/main.bcdea44f2fa805d9.hot-update.js"
+    },
+    "main.bcdea44f2fa805d9.hot-update.json": {
+      "name": "main.bcdea44f2fa805d9.hot-update.json",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.bcdea44f2fa805d9.hot-update.json",
+      "publicPath": "http://localhost:8080/main.bcdea44f2fa805d9.hot-update.json"
+    },
+    "main.d0bfa11791e3be6a.hot-update.js": {
+      "name": "main.d0bfa11791e3be6a.hot-update.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.d0bfa11791e3be6a.hot-update.js",
+      "publicPath": "http://localhost:8080/main.d0bfa11791e3be6a.hot-update.js"
+    },
+    "main.d0bfa11791e3be6a.hot-update.json": {
+      "name": "main.d0bfa11791e3be6a.hot-update.json",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.d0bfa11791e3be6a.hot-update.json",
+      "publicPath": "http://localhost:8080/main.d0bfa11791e3be6a.hot-update.json"
+    },
+    "main.d4d7727cb37e3c9d.hot-update.js": {
+      "name": "main.d4d7727cb37e3c9d.hot-update.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.d4d7727cb37e3c9d.hot-update.js",
+      "publicPath": "http://localhost:8080/main.d4d7727cb37e3c9d.hot-update.js"
+    },
+    "main.d4d7727cb37e3c9d.hot-update.json": {
+      "name": "main.d4d7727cb37e3c9d.hot-update.json",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.d4d7727cb37e3c9d.hot-update.json",
+      "publicPath": "http://localhost:8080/main.d4d7727cb37e3c9d.hot-update.json"
+    },
+    "main.da6ac32a4a38b99d.hot-update.js": {
+      "name": "main.da6ac32a4a38b99d.hot-update.js",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.da6ac32a4a38b99d.hot-update.js",
+      "publicPath": "http://localhost:8080/main.da6ac32a4a38b99d.hot-update.js"
+    },
+    "main.da6ac32a4a38b99d.hot-update.json": {
+      "name": "main.da6ac32a4a38b99d.hot-update.json",
+      "path": "E:\\softwareEng\\vueblog\\blogapp\\frontend\\assets\\bundles\\main.da6ac32a4a38b99d.hot-update.json",
+      "publicPath": "http://localhost:8080/main.da6ac32a4a38b99d.hot-update.json"
+    }
+  },
+  "chunks": {
+    "main": [
+      "main-9b97933c21af3136.js",
+      "main.d0bfa11791e3be6a.hot-update.js"
+    ]
+  },
+  "publicPath": "http://localhost:8080/",
+  "error": "ESLintError",
+  "message": "[eslint] \nE:\\softwareEng\\vueblog\\blogapp\\frontend\\src\\components\\ArticleEdit.vue\n  112:27  error  'data' is assigned a value but never used  no-unused-vars\n\n✖ 1 problem (1 error, 0 warnings)\n"
+}

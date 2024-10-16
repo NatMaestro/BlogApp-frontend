@@ -1,26 +1,46 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <Navbar/>
+    <router-view/>
+
+  </div>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue'
+// import { csrftoken } from '../csrf/csrf_token'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Navbar
+  },
+  methods: {
+        async getUser() {
+          const response = await fetch('api/user/', {
+            method: 'GET',
+            headers: {
+              'Content-Type': 'application/json',
+              // 'X-CSRFToken': csrftoken,
+            },
+          })
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`)
+          }
+          const data = await response.json()
+          console.log('data>>>', data)
+          const username = data["username"]
+          localStorage.setItem("username", username)
+          // this.articles.push(...data)
+        },
+      },
+      created() {
+        this.getUser()
+      }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
