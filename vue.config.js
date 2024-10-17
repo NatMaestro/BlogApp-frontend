@@ -5,14 +5,14 @@ const webpack = require('webpack');
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  outputDir: './assets/bundles/', // Set the output directory for production builds
+  outputDir: '../frontend/assets/', // Set the output directory for production builds
   publicPath: 'http://localhost:8080/', // Ensure this matches your dev server port and Django’s expectations
 
   chainWebpack: config => {
     config.optimization.splitChunks(false); // Disable code splitting for simplicity with Django
 
     config.plugin('BundleTracker').use(BundleTracker, [{ 
-      path: path.join(__dirname, 'assets'),  // Ensure this matches your Django settings
+      path: path.join(__dirname, '../frontend/assets'),  // Ensure this matches your Django settings
       filename: 'webpack-stats.json',
     }]);
 
@@ -44,7 +44,7 @@ module.exports = defineConfig({
   configureWebpack: {
     entry: './src/main.js', // Ensure this is pointing to your Vue entry point
     output: {
-      path: path.resolve(__dirname, './assets/bundles/'), // The output path
+      path: path.resolve(__dirname, '../frontend/assets/'), // The output path
       filename: '[name]-[hash].js', // Filename for hashed bundle output
     },
     plugins: [

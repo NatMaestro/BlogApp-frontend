@@ -38,7 +38,7 @@
       },
       methods: {
         async getAllArticles() {
-          const response = await fetch('api/articles/', {
+          const response = await fetch('/api/articles/', {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',

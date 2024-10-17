@@ -36,7 +36,7 @@
   
           if (response.ok) {
             // If successful, redirect to the login page or home
-            window.location.href = '/';
+            window.location.href = '/accounts/login/';
           } else {
             console.error('Logout failed');
           }
