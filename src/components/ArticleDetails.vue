@@ -4,7 +4,7 @@
 
         <h5 class="font-bold text-xl">Author: <span class="ml-5 border-2 bg-blue-500 rounded-md">{{ article.author }}</span></h5>
         <p class="my-10 ">{{ article.body }}</p>
-        <h6>Published on: <span>{{ article.created_at }}</span></h6>
+        <h6>Published on: <span>{{ formattedDate }}</span></h6>
 
         <ArticleActions v-if="IsAuthor" :slug="article.slug" />
         <!-- <p v-if="loading">Loading article...</p>
@@ -82,30 +82,31 @@
             computed: {
                 IsAuthor() {
                     return this.article.author === this.requestUser
+                },
+                formattedDate() {
+                const dateString = this.article.created_at;
+                if (!dateString) return 'N/A';  // Handle missing date
+                
+                const date = new Date(dateString);  // Parse the ISO date string
+                if (isNaN(date.getTime())) {
+                    return 'Invalid Date';  // Handle invalid date
                 }
-            },
+                
+                return new Intl.DateTimeFormat('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    hour: 'numeric',
+                    minute: 'numeric',
+                    hour12: true,  // Display time in 12-hour format with AM/PM
+                }).format(date);
+            }
+        },
 
             created() {
                 this.getArticle()
                 this.getUserRequest()
             },
-            formatDate(dateString) {
-                        if (!dateString) return 'N/A';  // Handle missing date
-                        
-                        const date = new Date(dateString);  // Parse the ISO date string
-                        if (isNaN(date.getTime())) {
-                            return 'Invalid Date';  // Handle invalid date
-                        }
-                        
-                        return new Intl.DateTimeFormat('en-US', {
-                            year: 'numeric',
-                            month: 'long',
-                            day: 'numeric',
-                            hour: 'numeric',
-                            minute: 'numeric',
-                            hour12: true,  // Display time in 12-hour format with AM/PM
-                        }).format(date);
-                    }
     }
 </script>
 
